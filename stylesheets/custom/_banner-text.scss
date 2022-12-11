@@ -1,0 +1,66 @@
+.banner2-1-textBlock {
+  width: 948px;
+  height: 370px;
+  background: linear-gradient(270deg, rgba(238, 250, 253, 0.95) 70.96%, rgba(238, 250, 253, 0) 100%);
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  clip-path: polygon(0% 0%, 90% 0%, 100% 50%, 90% 100%, 0% 100%);
+  right: 0%;
+  top: 30%
+}
+
+.banner2-1-text {
+  right: 25%;
+  top: 35%;
+  font-size: 24px;
+}
+
+.banner2-2-textBlock {
+  width: 948px;
+  height: 370px;
+  background: linear-gradient(270deg, rgba(238, 250, 253, 0.95) 70.96%, rgba(238, 250, 253, 0) 100%);
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  transform: matrix(1, 0, 0, -1, 0, 0);
+  clip-path: polygon(0% 0%, 90% 0%, 100% 50%, 90% 100%, 0% 100%);
+  left: 0%;
+  bottom: 15%
+}
+.banner2-2-text{
+  left: 25%;
+  bottom: 20%;
+  font-size: 24px;
+  span{
+    margin-bottom: 20px;
+  }
+}
+
+@media(max-width: 768px) {
+  .banner2-1-textBlock {
+    width: 354.98px;
+    height: 250px;
+    clip-path: polygon(0% 0%, 85% 0%, 100% 50%, 85% 100%, 0% 100%);
+    top: 450px;
+    background: rgba(238, 250, 253, 0.95);
+    opacity: 0.9;
+    top: 25%;
+  }
+
+  .banner2-1-text {
+    right: 35%;
+    top: 30%;
+    font-size: 16px;
+  }
+  .banner2-2-text{
+    left: 30%;
+    bottom: 20%;
+    font-size: 16px;
+  }
+  .banner2-2-textBlock {
+    width: 355px;
+    height: 250px;
+    background: rgba(238, 250, 253, 0.95);
+    clip-path: polygon(0% 0%, 85% 0%, 100% 50%, 85% 100%, 0% 100%);
+    left: 0%;
+    bottom: 17%
+  }
+}
